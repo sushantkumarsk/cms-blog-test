@@ -9,7 +9,7 @@ export default function Home() {
   const router = useRouter();
   useEffect(()=> {
       setTimeout(() => {
-        router.push("https://websitewind.com")
+        router.push("https://websitewind.com", "https://www.websitewind.com/best-dedicated-server-hosting-providers-2023/")
       }, 4000)
   }, []);
   return (
